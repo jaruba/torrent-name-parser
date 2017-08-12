@@ -1,3 +1,12 @@
 language: node_js
 node_js:
   - "0.10"
+  - "6.10.3"
+  - "node"
+cache:
+  directories:
+    - node_modules
+notifications:
+  slack:
+      on_success: change
+      on_failure: always
