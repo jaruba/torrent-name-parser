@@ -1,4 +1,4 @@
-# torrent-name-parser 
+# torrent-name-parser [![Build Status](https://img.shields.io/travis/jy95/torrent-name-parser.svg)](https://travis-ci.org/jy95/torrent-name-parser)
 
 Parses torrent name of a movie or TV show.
 
