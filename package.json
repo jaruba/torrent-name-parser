@@ -17,8 +17,8 @@
     "parse torrent name"
   ],
   "devDependencies": {
-    "tape": "^3.0.1",
-    "tap-spec": "^1.0.1"
+    "tape": "^4.8.0",
+    "tap-spec": "^4.1.1"
   },
   "scripts": {
     "test": "tape test.js | tap-spec"
