@@ -9,7 +9,7 @@ var core = require('../core');
 var patterns = {
   season: /([Ss]?([0-9]{1,2}))[Eex]|([Ss]([0-9]{1,2}))/,
   episode: /([Eex]([0-9]{2})(?:[^0-9]|$))/,
-  year: /([\[\(]?((?:19[0-9]|20[01])[0-9])[\]\)]?)/,
+  year: /([\[\(]?((?:19[0-9]|20[012])[0-9])[\]\)]?)/,
   resolution: /(([0-9]{3,4}(?:p|i)))[^M]/,
   quality: /hdtv|bluray|(?:b[dr]|dvd|hd|tv)rip|web-?(?:dl|rip)|dvd/i,
   codec: /dvix|mpeg[0-9]|divx|xvid|(?:x|h)[-\. ]?26(?:4|5)|avc|hevc/i,
